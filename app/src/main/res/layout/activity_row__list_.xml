@@ -15,18 +15,29 @@
         android:orientation="horizontal">
 
     <ImageView
+        android:id="@+id/imgAnd"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/andorid"
         />
 
     <TextView
-        android:id="@+id/tvFood"
+        android:id="@+id/tvNews"
         android:layout_width="wrap_content"
         android:layout_height="70dp"
-        android:text="Loading..."
+        android:text="Topic News"
         android:textSize="20sp"
         android:layout_marginLeft="20dp"
         android:textColor="@android:color/holo_orange_light"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="5 พฤษจิกายน 2559"
+            android:textSize="20sp"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/holo_orange_light"/>
     </LinearLayout>
 </RelativeLayout>
