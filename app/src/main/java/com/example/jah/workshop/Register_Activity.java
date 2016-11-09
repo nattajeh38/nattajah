@@ -147,7 +147,7 @@ public class Register_Activity extends AppCompatActivity {
             try {
                 JSONObject rootObj = new JSONObject(s);
                 if(rootObj.has("result")){
-                    JSONObject resultObj = rootObj.getJSONObject("resilt");
+                    JSONObject resultObj = rootObj.getJSONObject("result");
                     if(resultObj.getInt("result") == 1) {
                         Toast.makeText(Register_Activity.this, resultObj.getString("result_desc"), Toast.LENGTH_SHORT).show();
                         finish();
